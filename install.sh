@@ -12,7 +12,7 @@ mkdir ~/.ssh
 ## TODO set up your own config 
 ln -s ~/iCloud/config/ssh/config ~/.ssh/config
 
-# proxy
+# TODO set your proxy if needed
 export https_proxy=http://localhost:6152;export http_proxy=http://localhost:6152;export all_proxy=socks5://localhost:6153
 
 # homebrew
@@ -44,7 +44,6 @@ fish -c "fisher install jethrokuan/z"
 fish -c "fisher install joseluisq/gitnow@2.12.0"
 fish -c "fisher install jorgebucaran/nvm.fish"
 fish -c "fisher install nickeb96/puffer-fish"
-fisher install nickeb96/puffer-fish
 
 # add to config.fish
 echo "source /Users/$USER/iCloud/config/fish/$USER.profile" >>  ~/.config/fish/config.fish
